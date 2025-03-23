@@ -1,3 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+html {
+	scroll-behavior: smooth;
+}
+
+#store-scroll {
+	overflow-y: auto;
+}
